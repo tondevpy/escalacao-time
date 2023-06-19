@@ -16,3 +16,5 @@ Principais funcionalidades:
 - Limite de jogadores: a escalação permite adicionar até 10 jogadores. Caso o limite seja atingido, não será possível adicionar mais jogadores.
 
 Este código pode ser usado como base para a criação de uma aplicação mais completa de escalação de times de futebol, onde você pode adicionar recursos adicionais, como armazenamento de dados, edição e exclusão de jogadores, entre outros.
+
+- Adicionado opção para remover jogador! basta inserir o numero do jogador que o mesmo será removido
