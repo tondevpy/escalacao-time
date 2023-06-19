@@ -29,3 +29,17 @@ function escalar() {
         alert('Por favor, preencha todos os campos para escalar o jogador.');
     }
 }
+
+function removerJogador() {
+    let numero = document.getElementById('remover').value;
+    let jogadores = document.getElementsByTagName('li');
+
+    Array.from(jogadores).forEach(jogador => {
+        let jogadorNumero = jogador.innerText.match(/Numero: (\d+)/)[1];
+        if (jogadorNumero === numero) {
+            jogador.remove();
+            escalados = escalados - 1;
+            document.getElementById('escalados').innerText = escalados;
+        }
+    });
+}
